@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User InactiveVC-->
+        <scene sceneID="0LO-gt-YAA">
+            <objects>
+                <viewController storyboardIdentifier="UserInactiveVC" id="8zL-Hh-iBj" customClass="UserInactiveVC" customModule="RxSwiftLeapTalk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zM7-2R-ydU"/>
+                        <viewControllerLayoutGuide type="bottom" id="3KT-X7-I01"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="06c-hU-x23">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnT-iK-eLM">
+                                <rect key="frame" x="135" y="311" width="104" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Click Me"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vnT-iK-eLM" firstAttribute="centerX" secondItem="06c-hU-x23" secondAttribute="centerX" id="a60-bK-BlV"/>
+                            <constraint firstItem="vnT-iK-eLM" firstAttribute="centerY" secondItem="06c-hU-x23" secondAttribute="centerY" id="uLD-OC-0gx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="vnT-iK-eLM" id="mCU-uy-lDv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vu6-YZ-hP5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172" y="150"/>
+        </scene>
+    </scenes>
+</document>

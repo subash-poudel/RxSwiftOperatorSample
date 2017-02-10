@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FkS-Jf-Sfq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DashboardTVC-->
+        <scene sceneID="CAm-HQ-wxO">
+            <objects>
+                <tableViewController storyboardIdentifier="DashboardTVC" id="FkS-Jf-Sfq" customClass="DashboardTVC" customModule="RxSwiftLeapTalk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="h2n-B0-prA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="FkS-Jf-Sfq" id="Run-NH-wQa"/>
+                            <outlet property="delegate" destination="FkS-Jf-Sfq" id="WoL-tA-ooH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="eac-x8-CuI"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ccA-fn-Ker" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="-99"/>
+        </scene>
+    </scenes>
+</document>

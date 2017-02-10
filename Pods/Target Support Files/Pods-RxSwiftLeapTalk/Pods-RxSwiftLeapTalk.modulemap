@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftLeapTalk {
+  umbrella header "Pods-RxSwiftLeapTalk-umbrella.h"
+
+  export *
+  module * { export * }
+}
